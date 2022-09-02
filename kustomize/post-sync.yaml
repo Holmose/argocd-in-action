@@ -15,7 +15,7 @@ spec:
           - "curl"
           - "--request"
           - "POST"
-          - "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=b291a492-62be-406a-9b65-13cd2061045b"
+          - "http://192.168.160.1:8080/"
           - "--header"
           - "'Content-Type: application/json'"
           - "--data-raw"
